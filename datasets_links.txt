@@ -1,0 +1,9 @@
+Dataset 1 - Football Data from Transfermarkt (CSV files)
+Source: Kaggle
+Link: https://www.kaggle.com/datasets/davidcariboo/player-scores
+Files used: players.csv, appearances.csv
+
+Dataset 2 - Football Players (API)
+Source: Sportmonks Football API
+Link: https://www.sportmonks.com/football-api/
+Endpoint: https://api.sportmonks.com/v3/football/players
