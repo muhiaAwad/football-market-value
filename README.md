@@ -1,12 +1,12 @@
-# ⚽ Football Player Market Value Analysis
+#  Football Player Market Value Analysis
 
 A data wrangling and analysis project exploring the relationship between football players' attacking performance and their market value.
 
-## 📌 Project Overview
+##  Project Overview
 
 Understanding what drives player valuation is valuable for clubs, scouts, and analysts. This project gathers, wrangles, and analyzes data from two sources to investigate which factors — goals, assists, physical attributes — correlate with a player's market value.
 
-## 📂 Dataset Sources
+##  Dataset Sources
 
 | Dataset | Source | Method |
 |--------|--------|--------|
@@ -15,19 +15,19 @@ Understanding what drives player valuation is valuable for clubs, scouts, and an
 
 **Final dataset:** 26,000+ players after merging and cleaning.
 
-## 🔧 Data Wrangling Pipeline
+##  Data Wrangling Pipeline
 
 - **Gathering:** Manual CSV download + programmatic API retrieval
 - **Assessing:** Identified missing values, duplicates, and type issues
 - **Cleaning:** Merged multiple CSVs using `pandas`, handled nulls, standardized data types
 
-## 📊 Key Questions
+##  Key Questions
 
 1. Do players with more goals have higher market values?
 2. Does physical size (height/weight) influence valuation?
 3. How do assists compare to goals as a value predictor?
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat&logo=pandas&logoColor=white)
@@ -40,7 +40,7 @@ Understanding what drives player valuation is valuable for clubs, scouts, and an
 - **Matplotlib / Seaborn** — Visualization
 - **Jupyter Notebook** — Development environment
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 football-market-value/
@@ -53,7 +53,7 @@ football-market-value/
 └── README.md
 ```
 
-## ⬇️ Download the Data
+##  Download the Data
 
 The `appearances.csv` file exceeds GitHub's file size limit and is not included in this repository. Download it manually:
 
@@ -64,7 +64,7 @@ The `appearances.csv` file exceeds GitHub's file size limit and is not included 
    - `players.csv`
    - `player_valuations.csv`
 
-## 🚀 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
@@ -84,6 +84,6 @@ The `appearances.csv` file exceeds GitHub's file size limit and is not included 
 
 > **Note:** To use the Sportmonks API, you'll need your own API token at [sportmonks.com](https://www.sportmonks.com/).
 
-## 📝 Part of
+##  Part of
 
 **Udacity Data Analyst Nanodegree** — Advanced Data Wrangling Project
